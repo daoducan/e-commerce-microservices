@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: product-service
+  data:
+    mongodb:
+      username: andd
+      password: mgAnDD1102
+      host: localhost
+      port: 27017
+      database: product_v1
+      authentication-database: admin
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
